@@ -1,5 +1,7 @@
 * {
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  margin: 0;
 }
 
 body {
@@ -7,7 +9,7 @@ body {
 }
 
 button {
-  width: 100%;
+  width: 95%;
   background-color: #000;
   color: #fff;
   border-radius: 10px;
@@ -20,6 +22,41 @@ button {
   padding-bottom: 10px;
 }
 
-a {
+.title {
+  padding-bottom: 5px;
+}
+
+.links {
   color: #69696a;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.read-more {
+  border-left: 3px solid #69696a;
+  padding-left: 15px;
+}
+
+footer {
+  position: fixed;
+  background-color: rgba(247, 193, 162, 0.7);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  bottom: 0;
+  padding: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot-link {
+  color: #69696a;
+  text-decoration: none;
+  padding-left: 10px;
 }
